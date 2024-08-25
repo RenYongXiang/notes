@@ -176,7 +176,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
+      avatar: '/img/headerImg.jpg',
       name: 'RenYongXiang',
       slogan: '大二新生',
     },
@@ -310,7 +310,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
-      theme: ["whiteCat"],
+      theme: ["z16"],
       clean: true,
       width: 210,
       height: 308,
