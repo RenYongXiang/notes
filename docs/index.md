@@ -9,11 +9,11 @@ actionLink: /markdown
 bannerBg: /img/homeBg.jpg
 features: # 可选的
   - title: 编程
-    details: JavaScript、ES6、Vue框架等前端技术
+    details: 课堂所学，日常小记
     link: /web/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 专升本
-    details: html(5)/css(3)，前端页面相关技术
+    details: 专升本相关笔记，小记
     link: /ui/
     imgUrl: /img/ui.png
   - title: 技术
