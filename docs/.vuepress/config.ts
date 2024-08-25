@@ -131,7 +131,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // docsBranch: 'master', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
     editLinks: true, // 启用编辑
     editLinkText: '编辑',
-
     //*** 以下是Vdoing主题相关配置，文档：https://doc.xugaoyi.com/pages/a20ce8/ ***//
 
     // category: false, // 是否打开分类功能，默认true
@@ -181,7 +180,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       name: 'RenYongXiang',
       slogan: '大二新生',
     },
-
+    footer: { // 页脚信息
+      createYear: 2024, // 博客创建年份
+      copyrightInfo: 'RenYongXiang | MIT License', // 博客版权信息，支持a标签
+    },
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
     social: {
       // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
@@ -202,13 +204,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           link: 'https://music.163.com/#/playlist?id=755597173',
         },
       ],
-    },
-
-    // 页脚信息
-    footer: {
-      createYear: 2019, // 博客创建年份
-      copyrightInfo:
-        'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/" target="_blank">桂ICP备2024034950号</a> | <img src="/img/beian.png" style="width: 15px; margin-bottom: -3px;" /> <a href="https://beian.mps.gov.cn/#/query/webSearch?code=45142202000030" rel="noreferrer" target="_blank">桂公网安备45142202000030</a>', // 博客版权信息、备案信息等，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
@@ -312,6 +307,20 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         transformer: (timestamp, lang) => {
           return dayjs(timestamp).format('YYYY/MM/DD, HH:mm:ss')
         },
+      },
+    ],
+    ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
+      theme: ["miku"],
+      clean: true,
+      width: 210,
+      height: 308,
+    }],
+    [
+      "cursor-effects",
+      {
+        size: 4, // size of the particle, default: 2
+        shape: "star", // ['star' | 'circle'], // shape of the particle, default: 'star'
+        zIndex: 999999999, // z-index property of the canvas, default: 999999999
       },
     ],
   ],
