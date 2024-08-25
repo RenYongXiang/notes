@@ -39,5 +39,4 @@ git config --local user.email "2673741645@qq.com"
 # 如果使用 travis 持续集成
 #git push -f https://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@github.com/AngelingRemon/knowledgeNotes.git main:gh-pages
 
-
 cd -
