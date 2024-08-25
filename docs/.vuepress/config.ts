@@ -310,7 +310,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     ['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
-      theme: ["miku"],
+      theme: ["whiteCat"],
       clean: true,
       width: 210,
       height: 308,
