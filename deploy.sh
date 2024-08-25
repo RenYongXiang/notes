@@ -19,7 +19,7 @@ npm run build:win
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.example.com' > CNAME
+echo 'learn.renos.ren' > CNAME
 
 git init
 git add -A
