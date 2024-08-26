@@ -10,11 +10,11 @@ bannerBg: /img/homeBg.jpg
 features: # 可选的
   - title: 编程
     details: 课堂所学，日常小记
-    link: /web/ # 可选
+    link: /programming/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 专升本
     details: 专升本相关笔记，小记
-    link: /ui/
+    link: /zhuanshengben/
     imgUrl: /img/ui.png
   - title: 技术
     details: 技术文档、教程、技巧、总结等文章

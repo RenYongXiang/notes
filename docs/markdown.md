@@ -9,6 +9,8 @@ permalink: /markdown
 title: 文章标题：执行 `npm run dev:win`会自动生成
 date: 创作时间：执行 `npm run dev:win`会自动生成
 permalink: 跳转链接：执行 `npm run dev:win`会自动生成
+titleTag: 原创（加上这个标题后面会显示’原创‘tag）
+sticky: 1 是否置顶（添加这个属性文章就会置顶）
 categories:
   - 分类1
   - 分类2
