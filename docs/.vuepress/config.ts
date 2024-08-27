@@ -41,10 +41,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '数学',
         link: '/math/',
         items: [
-          { text: '初中数学', link: '/pages/9a7ee40fc232253e/' },
-          { text: '高中数学', link: '/pages/4c778760be26d8b3/' },
-          { text: '大学数据', link: '/pages/117708e0af7f0bd9/' },
-          { text: '专升本数学', link: '/pages/41f87d890d0a02af/' },
+          { text: '初中数学' },
+          { text: '高中数学' },
+          { text: '大学数据' },
+          { text: '专升本数学' },
         ],
       },
       {
@@ -59,9 +59,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '专升本',
         link: '/zhuanshengben/',
         items: [
-          { text: '学习计划', link: '/pages/f2a556/'},
-          { text: '资料汇总', link: '/pages/f2a556/' },
-          { text: '学习方法', link: '/pages/aea6571b7a8bae86/' }
+          { text: '学习计划' },
+          { text: '资料汇总' },
+          { text: '学习方法' }
         ],
       },
       {
