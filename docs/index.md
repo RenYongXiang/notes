@@ -3,8 +3,8 @@ home: true
 # heroImage: /img/web.png
 heroText: RenYongXiang
 tagline: 我一定能考上!!!
-actionText: 学习MarkDown语法 →
-actionLink: /markdown
+# actionText: 学习MarkDown语法 →
+# actionLink: /markdown
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 bannerBg: /img/homeBg.jpg
 features: # 可选的
