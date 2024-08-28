@@ -42,7 +42,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '数学',
         link: '/math/',
         items: [
-          { text: '初中数学' },
+          { text: '初中数学',
+            link: '/pages/413cb6/'
+           },
           { text: '高中数学' },
           { text: '大学数据' },
           { text: '专升本数学' },
