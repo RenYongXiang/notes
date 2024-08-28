@@ -14,6 +14,14 @@ author:
   name: RenYongXiang
   link: https://github.com/RenYongXiang
 ---
+  
+#### 目录说明
+- 修改导航：`docs/.vuepress/config.ts`；
+- 目录页对应笔记目录在目录文件的data.path配置；
+- 所有图片放在docs/.vuepress/public/img下，引用的时候/img/图片名称；
+- 笔记主要在 01.编程 --- 07.技术文件夹中
+- 笔记目录中，所有的文件夹或者文件，命名必须要以数字开头；
+- 新建.md文件之前最好把项目运行起来：`npm run dev:win`
 #### 每个笔记文件前面必须添加以下内容
 ```markdown
 ---

@@ -30,7 +30,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: 'Java文章'
+            text: 'Java文章',
+            link: '/pages/830609/'
           },
           {
             text: '学习笔记'
