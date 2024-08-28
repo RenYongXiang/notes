@@ -46,7 +46,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '英语',
         link: '/english/',
         items: [
-          { text: '单词' },
+          { text: '单词',
+            link:'/pages/ddb7c9/'
+           },
           { text: '语法' },
         ],
       },
