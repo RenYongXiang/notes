@@ -14,7 +14,22 @@ author:
   name: RenYongXiang
   link: https://github.com/RenYongXiang
 ---
-  
+::: cardList
+```yaml
+  - name: 我的图床
+    desc: 存放我的图片
+    avatar: /img/web.png
+    link: https://picx.xpoet.cn/#/upload 
+    bgColor: "#CBEAFA" 
+    textColor: "#6854A1"
+  - name: 框架文档
+    desc: vdoing博客框架文档
+    avatar: /img/more.png
+    link: https://doc.xugaoyi.com/pages/a2f161/
+    bgColor: "#B9D59C"
+    textColor: "#3B551F"
+```
+:::
 #### 目录说明
 - 修改导航：`docs/.vuepress/config.ts`；
 - 目录页对应笔记目录在目录文件的data.path配置；
